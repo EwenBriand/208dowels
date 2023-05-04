@@ -30,6 +30,7 @@ def helpFlag():
 def main():
     helpFlag()
     Ox = convert_to_int()
+    print(Ox)
     dispri = (calc_dispri(Ox))
     tx = get_tx(dispri)
     fit_vality = -1
